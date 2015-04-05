@@ -4,7 +4,7 @@
     "email": "chyingp@gmail.com",
     "url": "https://github.com/chyingp"
   },
-  "name": "grunt-inline",
+  "name": "wix-grunt-inline",
   "description": "Inlines img, script and link tags into the same file.",
   "version": "0.3.2",
   "keywords": [
@@ -34,6 +34,9 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "publishConfig": {
+    "registry": "http://repo.dev.wix/artifactory/api/npm/npm-local/"
   },
   "_id": "grunt-inline@0.1.0",
   "_from": "grunt-inline@~0.1.0"
